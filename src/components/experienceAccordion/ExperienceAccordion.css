@@ -1,0 +1,16 @@
+.accord-panel {
+	font-family: "Google Sans Regular";
+}
+.experience-accord-container {
+	margin: 50px;
+}
+.accordion-details {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 2s ease-in-out;
+}
+@media (max-width: 768px) {
+	.experience-accord-container {
+		margin: 20px;
+	}
+}
