@@ -4,12 +4,12 @@ import Button from "../button/Button";
 import { greeting } from "../../personalInfo";
 
 import FeelingProud from "./FeelingProud";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 export default function Greeting(props) {
 	const theme = props.theme;
 	return (
-		<Fade bottom duration={2000} distance="40px">
+		<Fade direction="up" duration={1000} distance="40px">
 			<div className="greet-main" id="greeting">
 				<div className="greeting-main">
 					<div className="greeting-text-div">

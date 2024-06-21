@@ -3,7 +3,7 @@ import "./Header.css";
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../personalInfo";
 import SeoHeader from "../seoHeader/SeoHeader";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 const onMouseEnter = (event, color) => {
 	const el = event.target;
 	el.style.backgroundColor = color;
@@ -18,7 +18,7 @@ export default function Header(props) {
 	const link = settings.isSplash ? "/splash" : "home";
 	const theme = props.theme;
 	return (
-		<Fade top duration={1000} distance="20px">
+		<Fade direction="down" duration={1000} distance="20px">
 			{/* <SeoHeader /> */}
 			<div>
 				<header className="header">
