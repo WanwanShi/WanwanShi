@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./pages/home/Home";
 import { ThemeProvider } from "styled-components";
 import { chosenTheme } from "./theme";
+import EducationPage from "./pages/education/EducationPage";
 
 function App() {
 	return (
@@ -12,9 +13,9 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/home" element={<Home />} />
-					{/* <Route path="/education" element={<Education />} />
-				<Route path="/experience" element={<Experience />} />
-				<Route path="/projects" eletheme) {rojects />} />
+					<Route path="/education" element={<EducationPage />} />
+					{/* <Route path="/experience" element={<Experience />} />
+				<Route path="/projects" elethement={<Projects />} /> 
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/splash" element={<Splash />} />
 				<Route path="*" element={<Error />} /> */}

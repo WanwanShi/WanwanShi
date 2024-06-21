@@ -236,6 +236,7 @@ const competitiveSites = {
 		{
 			siteName: "LeetCode",
 			iconifyClassname: "simple-icons:leetcode",
+			imageSrc: "leetcode.png",
 			style: {
 				color: "#F79F1B",
 			},
@@ -244,6 +245,7 @@ const competitiveSites = {
 		{
 			siteName: "HackerRank",
 			iconifyClassname: "simple-icons:hackerrank",
+			imageSrc: "hackerrank.png",
 			style: {
 				color: "#2EC866",
 			},
@@ -252,6 +254,7 @@ const competitiveSites = {
 		{
 			siteName: "Codechef",
 			iconifyClassname: "simple-icons:codechef",
+			imageSrc: "codechef.png",
 			style: {
 				color: "#5B4638",
 			},
@@ -260,8 +263,9 @@ const competitiveSites = {
 		{
 			siteName: "Codewars",
 			iconifyClassname: "simple-icons:codewars",
+			imageSrc: "codewars.png",
 			style: {
-				color: "#1F8ACB",
+				color: "#f05756",
 			},
 			profileLink: "https://www.codewars.com/users/wendyshir",
 		},
@@ -273,7 +277,7 @@ const degrees = {
 		{
 			title: "University of Bristol",
 			subtitle: "MSc in Mathematics Education",
-			logo_path: "bristol_logo.webp",
+			logo_path: "bristol_logo.png",
 			alt_name: "University of Bristol",
 			duration: "2020 - 2021",
 			descriptions: [
@@ -302,30 +306,30 @@ const degrees = {
 const certifications = {
 	certifications: [
 		{
-			title: "Machine Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "stanford_logo.png",
+			title: "Responsive Web Design Certification",
+			subtitle: "freeCodeCamp",
+			logo_path: "freecodecamp.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/22MTSSC5WDTM",
-			alt_name: "Stanford University",
+				"https://www.freecodecamp.org/certification/WanwanShi/responsive-web-design",
+			alt_name: "Responsive Web Design",
 			color_code: "#8C151599",
 		},
 		{
-			title: "Deep Learning",
-			subtitle: "- Andrew Ng",
-			logo_path: "deeplearning_ai_logo.png",
+			title: "Algorithms and Data Structures",
+			subtitle: "freeCodeCamp",
+			logo_path: "freecodecamp.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/H8CPSFXAJD2G",
-			alt_name: "deeplearning.ai",
+				"https://www.freecodecamp.org/certification/WanwanShi/responsive-web-design",
+			alt_name: "Legacy JavaScript Algorithms and Data Structures",
 			color_code: "#00000099",
 		},
 		{
-			title: "ML on GCP",
-			subtitle: "- GCP Training",
-			logo_path: "google_logo.png",
+			title: "Front End Development Libraries",
+			subtitle: "freeCodeCamp",
+			logo_path: "freecodecamp.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/EB4VJARK8647",
-			alt_name: "Google",
+				"https://www.freecodecamp.org/certification/WanwanShi/responsive-web-design",
+			alt_name: "Front End Development Libraries",
 			color_code: "#0C9D5899",
 		},
 		{
@@ -364,15 +368,7 @@ const certifications = {
 			alt_name: "Google",
 			color_code: "#0C9D5899",
 		},
-		{
-			title: "DL on Tensorflow",
-			subtitle: "- Laurence Moroney",
-			logo_path: "deeplearning_ai_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/6T4DCUGNK8J8",
-			alt_name: "deeplearning.ai",
-			color_code: "#00000099",
-		},
+
 		{
 			title: "Fullstack Development",
 			subtitle: "- Jogesh Muppala",
@@ -381,24 +377,6 @@ const certifications = {
 				"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
 			alt_name: "Coursera",
 			color_code: "#2A73CC",
-		},
-		{
-			title: "Kuberenetes on GCP",
-			subtitle: "- Qwiklabs",
-			logo_path: "gcp_logo.png",
-			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/e4d5a92b-faf6-4679-a70b-a9047c0cd750",
-			alt_name: "GCP",
-			color_code: "#4285F499",
-		},
-		{
-			title: "Cryptography",
-			subtitle: "- Saurabh Mukhopadhyay",
-			logo_path: "nptel_logo.png",
-			certificate_link:
-				"https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-			alt_name: "NPTEL",
-			color_code: "#FFBB0099",
 		},
 		{
 			title: "Cloud Architecture",
