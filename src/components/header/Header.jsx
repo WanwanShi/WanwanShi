@@ -18,7 +18,7 @@ export default function Header(props) {
 	const link = settings.isSplash ? "/splash" : "home";
 	const theme = props.theme;
 	return (
-		<Fade direction="down" duration={1000} distance="20px">
+		<Fade direction="down" duration={1000} triggerOnce="true">
 			{/* <SeoHeader /> */}
 			<div>
 				<header className="header">

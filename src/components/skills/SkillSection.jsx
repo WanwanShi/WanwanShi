@@ -24,7 +24,7 @@ export default function SkillSection(props) {
 			{skills.data.map((skill, i) => {
 				return (
 					<div key={i} className="skills-main-div">
-						<Fade direction="left" duration={2000}>
+						<Fade direction="left" duration={2000} triggerOnce="true">
 							<div className="skills-image-div">
 								{/* <img
                     alt="Ashutosh is Analysing Data"
@@ -35,15 +35,15 @@ export default function SkillSection(props) {
 						</Fade>
 
 						<div className="skills-text-div">
-							<Fade direction="right" duration={1000}>
+							<Fade direction="right" duration={1000} triggerOnce="true">
 								<h1 className="skills-heading" style={{ color: theme.text }}>
 									{skill.title}
 								</h1>
 							</Fade>
-							<Fade direction="right" duration={1500}>
+							<Fade direction="right" duration={1500} triggerOnce="true">
 								<SoftwareSkill logos={skill.softwareSkills} />
 							</Fade>
-							<Fade direction="right" duration={2000}>
+							<Fade direction="right" duration={2000} triggerOnce="true">
 								<div>
 									{skill.skills.map((skillSentence, i) => {
 										return (

@@ -1,8 +1,8 @@
 import Header from "../../components/header/Header";
 import Greeting from "../../components/greeting/Greeting";
 import Skills from "../../components/skills/Skills";
-import Footer from "../../components/Footer";
-import GoTopButton from "../../components/GoTopButton";
+import Footer from "../../components/footer/Footer";
+import GoTopButton from "../../components/goTopButton/GoTopButton";
 import { chosenTheme } from "../../theme";
 function Home() {
 	return (

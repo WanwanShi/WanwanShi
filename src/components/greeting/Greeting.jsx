@@ -2,14 +2,14 @@ import "./Greeting.css";
 import SocialMedia from "../socialMedia/SocialMedia";
 import Button from "../button/Button";
 import { greeting } from "../../personalInfo";
-
+import avatar from "../../assets/images/avatar.png";
 import FeelingProud from "./FeelingProud";
 import { Fade } from "react-awesome-reveal";
 
 export default function Greeting(props) {
 	const theme = props.theme;
 	return (
-		<Fade direction="up" duration={1000} distance="40px">
+		<Fade direction="up" duration={1000} triggerOnce="true">
 			<div className="greet-main" id="greeting">
 				<div className="greeting-main">
 					<div className="greeting-text-div">
@@ -49,7 +49,8 @@ export default function Greeting(props) {
 							alt="saad sitting on table"
 							src={require("../../assests/images/feelingProud.svg")}
 						></img> */}
-						<FeelingProud theme={theme} />
+						{/* <FeelingProud theme={theme} /> */}
+						<img alt="my avatar" src={avatar} />
 					</div>
 				</div>
 			</div>
