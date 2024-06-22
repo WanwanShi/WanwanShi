@@ -47,7 +47,7 @@ const SplashContainer = styled.div`
 	right: 50%;
 	justify-content: center;
 	align-items: center;
-	backgroundcolor: ${(props) => props.theme.body};
+	background-color: ${(props) => props.theme.body};
 `;
 
 const SplashContainerTwo = styled.div`
@@ -60,7 +60,7 @@ const SplashContainerTwo = styled.div`
 	left: 47%;
 	justify-content: center;
 	align-items: center;
-	backgroundcolor: ${(props) => props.theme.body};
+	background-color: ${(props) => props.theme.body};
 `;
 
 const NameContainer = styled.div`
@@ -70,10 +70,11 @@ const NameContainer = styled.div`
 		css`
 			${smoothSpin} 2s ease-out forwards;
 		`};
-	backgroundcolor: ${(props) => props.theme.dark};
+	background-color: ${(props) => props.theme.dark};
 	border-radius: 20px;
 	position: absolute;
 	top: 50%;
+	padding: 0.5rem;
 `;
 
 const Name = styled.span`

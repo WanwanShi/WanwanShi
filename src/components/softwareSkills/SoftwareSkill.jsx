@@ -30,14 +30,12 @@ export default function SoftwareSkill(props) {
 										></i>
 									)}
 									{!logo.fontAwesomeClassname && (
-										<span>
-											<img
-												className="skill-image"
-												style={logo.style}
-												src={`../../../skills/${logo.imageSrc}`}
-												alt={logo.skillName}
-											/>
-										</span>
+										<img
+											className="skill-image"
+											style={logo.style}
+											src={`../../../skills/${logo.imageSrc}`}
+											alt={logo.skillName}
+										/>
 									)}
 								</li>
 							</OverlayTrigger>
