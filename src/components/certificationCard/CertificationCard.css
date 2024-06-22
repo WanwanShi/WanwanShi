@@ -47,7 +47,7 @@
 }
 
 .content .content-overlay {
-	background: rgba(0, 0, 0, 0.7);
+	backgroundcolor: rgba(0, 0, 0, 0.7);
 	position: absolute;
 	height: 99%;
 	width: 100%;

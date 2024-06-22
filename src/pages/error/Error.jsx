@@ -5,13 +5,13 @@ import { chosenTheme } from "../../theme";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import GoTopButton from "../../components/goTopButton/GoTopButton";
-export default function Error(props) {
-	const { theme } = props;
+export default function Error() {
+	const theme = chosenTheme;
 	return (
-		<div className="error-main" style={{ backgroundColor: chosenTheme.body }}>
+		<div className="error-main" style={{ backgroundColor: theme.body }}>
 			<Header theme={theme} />
 			<div className="error-class">
-				<Fade bottom duration={2000} triggerOnce>
+				<Fade direction="up" duration={2000} triggerOnce>
 					<h1>Woops</h1>
 					<h1 className="error-404">404</h1>
 					<p>The requested page is unavailable at the moment!</p>
@@ -30,7 +30,7 @@ export default function Error(props) {
 				</Fade>
 			</div>
 			<Footer theme={theme} />
-			<GoTopButton theme={this.props.theme} />
+			<GoTopButton theme={theme} />
 		</div>
 	);
 }

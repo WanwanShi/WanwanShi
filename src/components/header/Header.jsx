@@ -1,8 +1,7 @@
 import "./Header.css";
-
 import { NavLink, Link } from "react-router-dom";
 import { greeting, settings } from "../../personalInfo";
-import SeoHeader from "../seoHeader/SeoHeader";
+
 import { Fade } from "react-awesome-reveal";
 const onMouseEnter = (event, color) => {
 	const el = event.target;
@@ -19,7 +18,6 @@ export default function Header(props) {
 	const theme = props.theme;
 	return (
 		<Fade direction="down" duration={1000} triggerOnce="true">
-			{/* <SeoHeader /> */}
 			<div>
 				<header className="header">
 					<NavLink to={link} tag={Link} className="logo">
@@ -38,7 +36,7 @@ export default function Header(props) {
 							<NavLink
 								to="/home"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activestyle={{ fontWeight: "bold" }}
 								style={{ color: theme.text }}
 								onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
 								onMouseOut={(event) => onMouseOut(event)}
@@ -50,7 +48,7 @@ export default function Header(props) {
 							<NavLink
 								to="/education"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activestyle={{ fontWeight: "bold" }}
 								style={{ color: theme.text }}
 								onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
 								onMouseOut={(event) => onMouseOut(event)}
@@ -62,7 +60,7 @@ export default function Header(props) {
 							<NavLink
 								to="/experience"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activestyle={{ fontWeight: "bold" }}
 								style={{ color: theme.text }}
 								onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
 								onMouseOut={(event) => onMouseOut(event)}
@@ -74,7 +72,7 @@ export default function Header(props) {
 							<NavLink
 								to="/projects"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activestyle={{ fontWeight: "bold" }}
 								style={{ color: theme.text }}
 								onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
 								onMouseOut={(event) => onMouseOut(event)}
@@ -87,7 +85,7 @@ export default function Header(props) {
 							<NavLink
 								to="/contact"
 								tag={Link}
-								activeStyle={{ fontWeight: "bold" }}
+								activestyle={{ fontWeight: "bold" }}
 								style={{ color: theme.text }}
 								onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
 								onMouseOut={(event) => onMouseOut(event)}

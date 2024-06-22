@@ -7,6 +7,9 @@ import { chosenTheme } from "./theme";
 import EducationPage from "./pages/education/EducationPage";
 import Experience from "./pages/experience/Experience";
 import Error from "./pages/error/Error";
+import Projects from "./pages/projects/Projects";
+import Contact from "./pages/contact/ContactComponent";
+import Splash from "./pages/splash/Splash";
 
 function App() {
 	return (
@@ -17,9 +20,9 @@ function App() {
 					<Route path="/home" element={<Home />} />
 					<Route path="/education" element={<EducationPage />} />
 					<Route path="/experience" element={<Experience />} />
-					{/* <Route path="/projects" elethement={<Projects />} /> */}
-					{/* <Route path="/contact" element={<Contact />} />
-				<Route path="/splash" element={<Splash />} /> */}
+					<Route path="/projects" element={<Projects />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="/splash" element={<Splash />} />
 					<Route path="*" element={<Error />} />
 				</Routes>
 			</ThemeProvider>

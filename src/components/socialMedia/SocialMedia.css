@@ -27,14 +27,14 @@
 	margin-bottom: 10px;
 }
 .linkedin i {
-	background-color: #0e76a8;
+	backgroundcolor: #0e76a8;
 }
 
 .github i {
-	background-color: #333;
+	backgroundcolor: #333;
 }
 .instagram i {
-	background-color: #e4405f;
+	backgroundcolor: #e4405f;
 }
 
 /*Hover Transition*/
@@ -45,7 +45,7 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover {
-	background-color: black;
+	backgroundcolor: black;
 	transition: 0.3s ease-in;
 }
 

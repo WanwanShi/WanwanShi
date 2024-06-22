@@ -3,7 +3,7 @@ import SocialMedia from "../socialMedia/SocialMedia";
 import Button from "../button/Button";
 import { greeting } from "../../personalInfo";
 import avatar from "../../assets/images/avatar.png";
-import FeelingProud from "./FeelingProud";
+
 import { Fade } from "react-awesome-reveal";
 
 export default function Greeting(props) {
@@ -38,18 +38,18 @@ export default function Greeting(props) {
 									className="portfolio-repo-btn"
 								/>
 							</div>
-							{/* <div className="button-greeting-div">
-              <Button text="Contact me" href="#contact" />
-              <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
-            </div> */}
+							<div className="button-greeting-div">
+								<Button text="Contact me" href="/contact" theme={theme} />
+								<Button
+									text="See my resume"
+									newTab={true}
+									href={greeting.resumeLink}
+									theme={theme}
+								/>
+							</div>
 						</div>
 					</div>
 					<div className="greeting-image-div">
-						{/* <img
-							alt="saad sitting on table"
-							src={require("../../assests/images/feelingProud.svg")}
-						></img> */}
-						{/* <FeelingProud theme={theme} /> */}
 						<img alt="my avatar" src={avatar} />
 					</div>
 				</div>

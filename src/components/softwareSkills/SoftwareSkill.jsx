@@ -18,7 +18,11 @@ export default function SoftwareSkill(props) {
 									</Tooltip>
 								}
 							>
-								<li className="software-skill-inline" name={logo.skillName}>
+								<li
+									className="software-skill-inline"
+									name={logo.skillName}
+									key={logo.skillName}
+								>
 									{logo.fontAwesomeClassname && (
 										<i
 											className={`fa-brands fa-${logo.skillName.toLowerCase()}`}
@@ -26,12 +30,14 @@ export default function SoftwareSkill(props) {
 										></i>
 									)}
 									{!logo.fontAwesomeClassname && (
-										<img
-											className="skill-image"
-											style={logo.style}
-											src={`../../../skills/${logo.imageSrc}`}
-											alt={logo.skillName}
-										/>
+										<span>
+											<img
+												className="skill-image"
+												style={logo.style}
+												src={`../../../skills/${logo.imageSrc}`}
+												alt={logo.skillName}
+											/>
+										</span>
 									)}
 								</li>
 							</OverlayTrigger>

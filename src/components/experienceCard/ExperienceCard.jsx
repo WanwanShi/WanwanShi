@@ -47,7 +47,7 @@ export default function ExperienceCard(props) {
 					></div>
 					<div
 						className="experience-card"
-						style={{ background: `${theme.body}` }}
+						style={{ backgroundColor: `${theme.body}` }}
 					>
 						<div
 							style={{

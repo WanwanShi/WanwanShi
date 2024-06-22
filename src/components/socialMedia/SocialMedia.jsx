@@ -5,14 +5,14 @@ import styled from "styled-components";
 const IconWrapper = styled.span`
 	i {
 		background-color: ${(props) => props.backgroundColor};
-		transition: background-color 0.3s ease-in;
 	}
 	&:hover i {
-		background-color: ${(props) => props.hoverColor};
+		background-color: ${({ theme }) => theme.text};
+		transition: 0.3s ease-in;
 	}
 `;
 
-export default function socialMedia(props) {
+export default function SocialMedia(props) {
 	const theme = props.theme;
 	return (
 		<div className="social-media-div">
