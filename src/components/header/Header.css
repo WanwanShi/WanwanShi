@@ -10,7 +10,7 @@
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
-	backgroundcolor: #fff;
+	background-color: #fff;
 }
 .grey-color {
 	color: #868e96;
@@ -25,7 +25,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
-	backgroundcolor: #a6e1fa;
+	background-color: #a6e1fa;
 }
 
 .header .logo {
@@ -65,17 +65,17 @@
 }
 
 .header .menu-icon .navicon {
-	backgroundcolor: #333;
+	background-color: #333;
 	display: block;
 	height: 2px;
 	position: relative;
-	transition: backgroundColor 0.2s ease-out;
+	transition: background-Color 0.2s ease-out;
 	width: 18px;
 }
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
-	backgroundcolor: #333;
+	background-color: #333;
 	content: "";
 	display: block;
 	height: 100%;
@@ -103,7 +103,7 @@
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon {
-	backgroundcolor: transparent;
+	background-color: transparent;
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {

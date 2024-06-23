@@ -249,7 +249,7 @@ const competitiveSites = {
 			style: {
 				color: "#2EC866",
 			},
-			profileLink: "https://www.hackerrank.com/layman_brother",
+			profileLink: "https://www.hackerrank.com/profile/wendyshi1082017",
 		},
 		{
 			siteName: "Codechef",
@@ -267,7 +267,7 @@ const competitiveSites = {
 			style: {
 				color: "#f05756",
 			},
-			profileLink: "https://www.codewars.com/users/wendyshir",
+			profileLink: "https://www.codewars.com/users/wendyshi",
 		},
 	],
 };
@@ -281,9 +281,9 @@ const degrees = {
 			alt_name: "University of Bristol",
 			duration: "2020 - 2021",
 			descriptions: [
-				"⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.",
-				"⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
-				"⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
+				"⚡ I completed a Master of Education in Mathematics Education with distinction, focusing on analytical and research skills through studying students' mathematical understanding.",
+				"⚡ My research involves using the TPACK framework and Desmos, showcasing my ability to integrate technology effectively.",
+				"⚡ I have developed strong skills in data analysis and educational technology, applicable to solving complex problems in software development.",
 			],
 			website_link: "https://www.bristol.ac.uk/",
 		},
@@ -294,9 +294,9 @@ const degrees = {
 			alt_name: "Shanghai Lixin University of Accounting and Finance",
 			duration: "2007-2011",
 			descriptions: [
-				"⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.",
-				"⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.",
-				"⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.",
+				"⚡ I graduated with a Bachelor of Economics, majoring in Insurance, achieving a GPA of 3.57/4.0 and ranking in the top 3% of my department.",
+				"⚡ I was awarded the National Scholarship and other recognitions for academic excellence, demonstrating my commitment to continuous learning.",
+				"⚡ My academic background includes rigorous coursework and projects that have honed my quantitative analysis and critical thinking skills, beneficial for a tech career.",
 			],
 			website_link: "https://en.lixin.edu.cn/main.htm",
 		},
@@ -305,6 +305,15 @@ const degrees = {
 
 const certifications = {
 	certifications: [
+		{
+			title: "Software Engineering Certification",
+			subtitle: "Northcoders",
+			logo_path: "northcoders_logo.png",
+			certificate_link:
+				"https://drive.google.com/file/d/1yjngP8wBrUvuf96-EkVaQFEz_wO18cfc/view?usp=sharing",
+			alt_name: "Software Engineering Certification",
+			color_code: "#dcd3c1",
+		},
 		{
 			title: "Responsive Web Design Certification",
 			subtitle: "freeCodeCamp",
@@ -328,7 +337,7 @@ const certifications = {
 			subtitle: "freeCodeCamp",
 			logo_path: "freecodecamp.png",
 			certificate_link:
-				"https://www.freecodecamp.org/certification/WanwanShi/responsive-web-design",
+				"https://drive.google.com/file/d/1hgdwb94i8lk0nq9Qs4oyAtx0Ohj1jA-D/view?usp=sharing",
 			alt_name: "Front End Development Libraries",
 			color_code: "#0C9D5899",
 		},
@@ -336,8 +345,7 @@ const certifications = {
 			title: "Data Science",
 			subtitle: "- Alex Aklson",
 			logo_path: "ibm_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/specialization/PLEAPCSJBZT5",
+			certificate_link: "",
 			alt_name: "IBM",
 			color_code: "#1F70C199",
 		},
@@ -345,8 +353,7 @@ const certifications = {
 			title: "IT support",
 			subtitle: "- Google",
 			logo_path: "google_logo.png",
-			certificate_link:
-				"https://drive.google.com/file/d/164zKCFOsI4vGqokc-Qj-e_D00kLDHIrG/view",
+			certificate_link: "",
 			alt_name: "Microsoft",
 			color_code: "#D83B0199",
 		},
@@ -354,8 +361,7 @@ const certifications = {
 			title: "Front End Developer",
 			subtitle: "- Meta",
 			logo_path: "meta_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/BH2T9BRU87BH",
+			certificate_link: "",
 			alt_name: "Meta",
 			color_code: "#1F70C199",
 		},
@@ -364,17 +370,16 @@ const certifications = {
 			subtitle: "- QTS",
 			logo_path: "reading_logo.png",
 			certificate_link:
-				"https://www.coursera.org/account/accomplishments/verify/5JZZM7TNQ2AV",
+				"https://drive.google.com/file/d/1EMIZAdQgb-HqrjB4AkO_rWmkwApnPv6Z/view?usp=sharing",
 			alt_name: "QTS",
 			color_code: "#0C9D5899",
 		},
 
 		{
 			title: "Fullstack Development",
-			subtitle: "- IBM",
+			subtitle: "- Coursera",
 			logo_path: "coursera_logo.png",
-			certificate_link:
-				"https://www.coursera.org/account/accomplishments/certificate/NRANJA66Y2YA",
+			certificate_link: "",
 			alt_name: "Coursera",
 			color_code: "#2A73CC",
 		},
@@ -382,8 +387,7 @@ const certifications = {
 			title: "AWS Cloud Practitioner",
 			subtitle: "- (In progress)",
 			logo_path: "aws.png",
-			certificate_link:
-				"https://google.qwiklabs.com/public_profiles/5fab4b2d-be6f-408c-8dcb-6d3b58ecb4a2",
+			certificate_link: "",
 			alt_name: "GCP",
 			color_code: "#4285F499",
 		},
@@ -521,7 +525,7 @@ const experience = {
 const projectsHeader = {
 	title: "Projects",
 	description:
-		"My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+		"After completing an intensive boot camp, I am thrilled to showcase my ongoing projects, where I am passionately integrating a diverse array of cutting-edge technologies to build impactful full stack applications. I'm eager to leverage these experiences to secure a rewarding job opportunity.",
 	avatar_image_path: "projects_image.svg",
 };
 
@@ -531,7 +535,7 @@ const contactPageData = {
 		title: "Contact Me",
 		profile_image_path: "avatar.png",
 		description:
-			"I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+			"I'm reachable on various social media platforms and committed to responding promptly within 24 hours. With expertise in React, Node.js, Express, SQL, and MongoDB, I'm eager to apply my skills and experience effectively in a new job role.",
 	},
 	blogSection: {
 		title: "Blogs",
@@ -549,7 +553,7 @@ const contactPageData = {
 		postalCode: "OX28 5BY",
 		streetAddress: "",
 		avatar_image_path: "address_image.svg",
-		location_map_link: "https://maps.app.goo.gl/S2A1kLDz1pXCTbXD8",
+		location_map_link: "https://maps.app.goo.gl/SpP2VjaicvbL15KR6",
 	},
 	phoneSection: {
 		title: "+44 7938 766 855",
