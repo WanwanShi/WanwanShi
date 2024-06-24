@@ -7,9 +7,9 @@ import { Fade } from "react-awesome-reveal";
 import { greeting, projectsHeader } from "../../personalInfo.js";
 import ProjectsData from "../../projects.json";
 import "./Projects.css";
-import ProjectsImg from "./ProjectsImg.jsx";
-import { chosenTheme } from "../../theme.js";
 
+import { chosenTheme } from "../../theme.js";
+import projects from "../../assets/images/projects.png";
 export default function Projects() {
 	const theme = chosenTheme;
 	return (
@@ -22,7 +22,8 @@ export default function Projects() {
 				<Fade direction="up" duration={2000} triggerOnce>
 					<div className="projects-heading-div">
 						<div className="projects-heading-img-div">
-							<ProjectsImg theme={theme} />
+							{/* <ProjectsImg theme={theme} /> */}
+							<img src={projects} alt="" />
 						</div>
 						<div className="projects-heading-text-div">
 							<h1

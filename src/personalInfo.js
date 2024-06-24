@@ -5,11 +5,11 @@ const settings = {
 const seo = {
 	title: "Wanwan Shi",
 	description:
-		"A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+		"Hello and welcome to my portfolio! I'm passionate about creating impactful solutions through technology. Explore my projects and journey as a full-stack developer.",
 	og: {
 		title: "Wanwan Shi Portfolio",
 		type: "website",
-		url: "http://ashutoshhathidara.com/",
+		url: "https://wanwanshi.netlify.app/",
 	},
 };
 
@@ -19,7 +19,7 @@ const greeting = {
 	logo_name: "Wanwan Shi",
 	nickname: "Wendy",
 	subTitle:
-		"A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+		"Welcome to my portfolio! I thrive on leveraging technology to create innovative solutions. As a problem solver at heart, I'm dedicated to crafting impactful applications. Explore my projects and join me on my journey in software development.",
 	resumeLink:
 		"https://drive.google.com/file/d/1D1ubL8yYiSX3HAtGNbMiGe0PHTYFC-Cf/view?usp=sharing",
 	portfolio_repository: "https://github.com/WanwanShi/WanwanShi",
@@ -30,33 +30,33 @@ const socialMediaLinks = [
 	{
 		name: "Github",
 		link: "https://github.com/WanwanShi",
-		fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
-		backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
+		fontAwesomeIcon: "fa-github",
+		backgroundColor: "#181717",
 	},
 	{
 		name: "LinkedIn",
 		link: "https://www.linkedin.com/in/wanwanshi/",
-		fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-		backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+		fontAwesomeIcon: "fa-linkedin-in",
+		backgroundColor: "#0077B5",
 	},
 
 	{
 		name: "Instagram",
 		link: "https://www.instagram.com/wendyshi123/",
-		fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/google?style=brands
-		backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=gmail
+		fontAwesomeIcon: "fa-instagram",
+		backgroundColor: "#E4405F",
 	},
 ];
 
 const skills = {
 	data: [
 		{
-			title: "Data Science & AI",
-			fileName: "DataScienceImg",
+			title: "Coding Languages",
+			fileName: "backend",
 			skills: [
-				"⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-				"⚡ Experience of working with Computer Vision and NLP projects",
-				"⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+				"⚡ Expertise in JavaScript for building dynamic, interactive web applications",
+				"⚡ Proficient in TypeScript for creating robust, type-safe codebase in large-scale projects",
+				"⚡ Skilled in Python for developing versatile, high-performance applications across various domains",
 			],
 			softwareSkills: [
 				{
@@ -86,12 +86,12 @@ const skills = {
 			],
 		},
 		{
-			title: "Full Stack Development",
-			fileName: "FullStackImg",
+			title: "Full Stack Developer",
+			fileName: "desk",
 			skills: [
-				"⚡ Building responsive website front end using React-Redux",
-				"⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-				"⚡ Creating application backend in Node, Express & Flask",
+				"⚡ Building dynamic, responsive web applications using the MERN stack (MongoDB, Express.js, React, Node.js)",
+				"⚡ Developing cross-platform mobile applications with Flutter and React Native",
+				"⚡ Creating robust, scalable backend services and APIs with Node.js and Express",
 			],
 			softwareSkills: [
 				{
@@ -154,13 +154,12 @@ const skills = {
 			],
 		},
 		{
-			title: "Cloud Infra-Architecture",
-			fileName: "CloudInfraImg",
+			title: "Database Management",
+			fileName: "database",
 			skills: [
-				"⚡ Experience working on multiple cloud platforms",
-				"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-				"⚡ Deploying deep learning models on cloud to use on mobile devices",
-				"⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+				"⚡  Mastering complex queries and database design with PostgreSQL",
+				"⚡ Streamlining data storage and retrieval using MongoDB",
+				"⚡ Leveraging Firebase for scalable, real-time database solutions",
 			],
 			softwareSkills: [
 				{
@@ -193,22 +192,15 @@ const skills = {
 						color: "#47A248",
 					},
 				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "simple-icons:docker",
-					style: {
-						color: "#1488C6",
-					},
-				},
 			],
 		},
 		{
 			title: "UI/UX Design",
 			fileName: "DesignImg",
 			skills: [
-				"⚡ Designing highly attractive user interface for mobile and web applications",
-				"⚡ Customizing logo designs and building logos from scratch",
-				"⚡ Creating the flow of application functionalities to optimize user experience",
+				"⚡ Designing intuitive and visually appealing user interfaces with Figma for mobile and web applications",
+				"⚡ Conducting user research and creating wireframes, prototypes, and user flows to optimize user experience",
+				"⚡  Crafting detailed vector graphics and illustrations using Inkscape",
 			],
 			softwareSkills: [
 				{
@@ -219,8 +211,8 @@ const skills = {
 					},
 				},
 				{
-					skillName: "Adobe Illustrator",
-					imageSrc: "ai.png",
+					skillName: "Inkscape",
+					imageSrc: "inkscape.png",
 					style: {
 						color: "#FF7C00",
 					},
@@ -342,24 +334,24 @@ const certifications = {
 			color_code: "#0C9D5899",
 		},
 		{
-			title: "Data Science",
-			subtitle: "- Alex Aklson",
-			logo_path: "ibm_logo.png",
-			certificate_link: "",
-			alt_name: "IBM",
+			title: "Software Engineer Intern",
+			subtitle: "- Hackerrank",
+			logo_path: "cib--hackerrank.png",
+			certificate_link: "https://www.hackerrank.com/certificates/a15e5c6018db",
+			alt_name: "Software Engineer Intern",
 			color_code: "#1F70C199",
 		},
 		{
-			title: "IT support",
-			subtitle: "- Google",
-			logo_path: "google_logo.png",
-			certificate_link: "",
-			alt_name: "Microsoft",
+			title: "Problem Solving",
+			subtitle: "- Hackerrank",
+			logo_path: "cib--hackerrank.png",
+			certificate_link: "https://www.hackerrank.com/certificates/9d25987b4058",
+			alt_name: "Problem Solving",
 			color_code: "#D83B0199",
 		},
 		{
 			title: "Front End Developer",
-			subtitle: "- Meta",
+			subtitle: "-  (In Progress)",
 			logo_path: "meta_logo.png",
 			certificate_link: "",
 			alt_name: "Meta",
@@ -397,9 +389,9 @@ const certifications = {
 // Experience Page
 const experience = {
 	title: "Experience",
-	subtitle: "Work, Internship and Volunteership",
+	subtitle: "Work, Volunteership",
 	description:
-		"I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+		"I have gained valuable experience in software development through boot camps and personal projects, fulfilling roles as a Developer, Designer, and Software Architect. I actively contribute to open-source communities, organize tech events, and apply Agile methodologies to drive innovation.",
 	header_image_path: "experience.svg",
 	sections: [
 		{
@@ -452,68 +444,42 @@ const experience = {
 				},
 			],
 		},
-		{
-			title: "Internships",
-			experiences: [
-				{
-					title: "Machine Learning Intern",
-					company: "TikTok Inc.",
-					company_url: "https://www.tiktok.com/en/",
-					logo_path: "tiktok_logo.png",
-					duration: "May 2022 - Aug 2022",
-					location: "San Francisco, USA",
-					description:
-						"Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
-					color: "#000000",
-				},
-				{
-					title: "Data Science Research Intern",
-					company: "Delhivery Pvt. Ltd.",
-					company_url: "https://www.delhivery.com/",
-					logo_path: "delhivery_logo.png",
-					duration: "May 2019 - Sept 2019",
-					location: "Gurgaon, Haryana",
-					description:
-						"I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-					color: "#ee3c26",
-				},
-			],
-		},
+
 		{
 			title: "Volunteerships",
 			experiences: [
-				{
-					title: "Google Explore ML Facilitator",
-					company: "Google",
-					company_url: "https://about.google/",
-					logo_path: "google_logo.png",
-					duration: "June 2019 - April 2020",
-					location: "Hyderabad, Telangana",
-					description:
-						"Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. The curriculum offers 3 tracks of ML Content (Beginner, Intermediate, Advanced) and relies on university student facilitators to train other students on campus and to build opensource projects under this program.",
-					color: "#4285F4",
-				},
-				{
-					title: "Microsoft Student Partner",
-					company: "Microsoft",
-					company_url: "https://www.microsoft.com/",
-					logo_path: "microsoft_logo.png",
-					duration: "Aug 2019 - May 2020",
-					location: "Hyderabad, Telangana",
-					description:
-						"Microsoft Student Partner is a program for university students to lead the awareness and use of Cloud especially Azure tools in the development of their projects and startups. Under this program, I have organised hands on workshops and seminars to teach Cloud Computing concepts to students.",
-					color: "#D83B01",
-				},
-
 				{
 					title: "Developer Program Member",
 					company: "Github",
 					company_url: "https://github.com/",
 					logo_path: "github_logo.png",
-					duration: "July 2019 - PRESENT",
+					duration: "Jan 2024 - PRESENT",
 					location: "Work From Home",
 					description:
-						"I am actively contributing to many opensource projects. I have contributed to projects of organisations like Tensorflow, Uber, Facebook, Google, Scikit-learn, Kiwix, Sympy, Python, NVLabs, Fossasia, Netrack, Keras etc. These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+						"I am actively contributing to many open source projects.  These contributions include bug fixes, feature requests and formulating proper documentation for project.",
+					color: "#181717",
+				},
+
+				{
+					title: "Volunteer Contributor",
+					company: "Leetcode",
+					company_url: "https://leetcode.com/",
+					logo_path: "leetcode.png",
+					duration: "Jan 2024 - PRESENT",
+					location: "Work From Home",
+					description:
+						"I contribute to LeetCode by consistently solving a wide range of coding challenges, focusing on clarity, efficiency, and correctness in my solutions. I document and share detailed explanations alongside my code to aid learning and promote best practices within the community.",
+					color: "#181717",
+				},
+				{
+					title: "UX and Product Enhancement Volunteer",
+					company: "Maths-angel",
+					company_url: "https://maths-angel.co.uk/home",
+					logo_path: "mathsangel.png",
+					duration: "June 2024 - PRESENT",
+					location: "Work From Home",
+					description:
+						"I volunteered with an AI-powered startup, offering UX design insights and performance suggestions to enhance their product. My contributions focused on optimizing user experience, refining product design, and improving overall performance.",
 					color: "#181717",
 				},
 			],

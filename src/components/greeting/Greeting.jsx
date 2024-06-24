@@ -12,6 +12,9 @@ export default function Greeting(props) {
 		<Fade direction="up" duration={1000} triggerOnce="true">
 			<div className="greet-main" id="greeting">
 				<div className="greeting-main">
+					<div className="greeting-image-div">
+						<img alt="my avatar" src={avatar} />
+					</div>
 					<div className="greeting-text-div">
 						<div>
 							<h1 className="greeting-text" style={{ color: theme.text }}>
@@ -48,9 +51,6 @@ export default function Greeting(props) {
 								/>
 							</div>
 						</div>
-					</div>
-					<div className="greeting-image-div">
-						<img alt="my avatar" src={avatar} />
 					</div>
 				</div>
 			</div>

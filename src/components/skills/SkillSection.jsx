@@ -2,19 +2,18 @@ import "./Skills.css";
 import SoftwareSkill from "../softwareSkills/SoftwareSkill";
 import { skills } from "../../personalInfo";
 import { Fade } from "react-awesome-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
-import CloudInfraImg from "./CloudInfraImg";
-import DesignImg from "./DesignImg";
 
+import desk from "../../assets/images/desk.png";
+import database from "../../assets/images/database.png";
+import backend from "../../assets/images/backend.png";
+import ui from "../../assets/images/ui.png";
 function GetSkillSvg(props) {
-	if (props.fileName === "DataScienceImg")
-		return <DataScienceImg theme={props.theme} />;
-	else if (props.fileName === "FullStackImg")
-		return <FullStackImg theme={props.theme} />;
-	else if (props.fileName === "CloudInfraImg")
-		return <CloudInfraImg theme={props.theme} />;
-	return <DesignImg theme={props.theme} />;
+	if (props.fileName === "desk") return <img src={desk}></img>;
+	else if (props.fileName === "database")
+		return <img src={database} alt="Database"></img>;
+	else if (props.fileName === "backend")
+		return <img src={backend} alt="backend"></img>;
+	return <img src={ui} alt="ui design"></img>;
 }
 
 export default function SkillSection(props) {
@@ -26,10 +25,6 @@ export default function SkillSection(props) {
 					<div key={i} className="skills-main-div">
 						<Fade direction="left" duration={2000} triggerOnce="true">
 							<div className="skills-image-div">
-								{/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
-                  ></img> */}
 								<GetSkillSvg fileName={skill.fileName} theme={theme} />
 							</div>
 						</Fade>

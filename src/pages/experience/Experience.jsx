@@ -4,10 +4,10 @@ import GoTopButton from "../../components/goTopButton/GoTopButton";
 import "./Experience.css";
 import { experience } from "../../personalInfo.js";
 import { Fade } from "react-awesome-reveal";
-import ExperienceImg from "./ExperienceImg";
+
 import ExperienceAccordion from "../../components/experienceAccordion/ExperienceAccordion.jsx";
 import { chosenTheme } from "../../theme.js";
-
+import experiencePng from "../../assets/images/experience.png";
 export default function Experience() {
 	const theme = chosenTheme;
 	return (
@@ -20,11 +20,7 @@ export default function Experience() {
 				<Fade bottom duration={2000} triggerOnce>
 					<div className="experience-heading-div">
 						<div className="experience-heading-img-div">
-							{/* <img
-									src={require(`../../assests/images/${experience["header_image_path"]}`)}
-									alt=""
-								/> */}
-							<ExperienceImg theme={theme} />
+							<img src={experiencePng} alt="" />
 						</div>
 
 						<div className="experience-heading-text-div">

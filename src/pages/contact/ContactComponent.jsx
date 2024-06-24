@@ -3,13 +3,12 @@ import Footer from "../../components/footer/Footer.jsx";
 import GoTopButton from "../../components/goTopButton/GoTopButton.jsx";
 import SocialMedia from "../../components/socialMedia/SocialMedia.jsx";
 import Button from "../../components/button/Button.jsx";
-import BlogsImg from "./BlogsImg.jsx";
-import AddressImg from "./AddressImg.jsx";
+import address from "../../assets/images/address.png";
 import { Fade } from "react-awesome-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../personalInfo.js";
 import { chosenTheme } from "../../theme.js";
-
+import personal from "../../assets/images/personal.png";
 export default function Contact() {
 	const theme = chosenTheme;
 	const { contactSection, blogSection, addressSection, phoneSection } =
@@ -21,10 +20,11 @@ export default function Contact() {
 				<Fade direction="up" duration={1000} triggerOnce>
 					<div className="contact-heading-div">
 						<div className="contact-heading-img-div">
-							<img
+							{/* <img
 								src={`../../../skills/${contactSection["profile_image_path"]}`}
 								alt=""
-							/>
+							/> */}
+							<img src={personal} alt="" />
 						</div>
 						<div className="contact-heading-text-div">
 							<h1
@@ -51,7 +51,7 @@ export default function Contact() {
 						</div>
 					</div>
 				</Fade>
-				<Fade bottom duration={1000} distance="40px">
+				{/* <Fade direction="up" duration={1000} triggerOnce>
 					<div className="blog-heading-div">
 						<div className="blog-heading-text-div">
 							<h1 className="blog-heading-text" style={{ color: theme.text }}>
@@ -73,23 +73,12 @@ export default function Contact() {
 							</div>
 						</div>
 						<div className="blog-heading-img-div">
-							{/* <img
-											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
 							<BlogsImg theme={theme} />
 						</div>
 					</div>
-				</Fade>
-				<Fade bottom duration={1000} distance="40px">
+				</Fade> */}
+				<Fade direction="up" duration={1000} triggerOnce>
 					<div className="address-heading-div">
-						<div className="contact-heading-img-div">
-							{/* <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-							<AddressImg theme={theme} />
-						</div>
 						<div className="address-heading-text-div">
 							<h1
 								className="address-heading-text"
@@ -123,6 +112,10 @@ export default function Contact() {
 									theme={theme}
 								/>
 							</div>
+						</div>
+						<div className="contact-heading-img-div">
+							{/* <AddressImg theme={theme} /> */}
+							<img src={address} alt="" />
 						</div>
 					</div>
 				</Fade>
