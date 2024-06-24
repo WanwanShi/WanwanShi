@@ -3,7 +3,7 @@
 		{
 			"id": 1,
 			"name": "NC News API- Backend",
-			"createdAt": "2023-04-13T04:18:19Z",
+			"createdAt": "2024-04-13T04:18:19Z",
 			"url": "https://github.com/WanwanShi/back_end_project-NC_news",
 			"description": "A RESTful API that provides news articles and comments and built with Node.js, Express.js, and PostgreSQL. It also includes tests using Jest.",
 			"isFork": false,
@@ -129,6 +129,44 @@
 				{
 					"name": "MUI",
 					"iconifyClass": "mui.png"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"name": "Maths Solver App (In Progress)",
+			"createdAt": "2024-6-23 T17:56:07Z",
+			"url": "",
+			"description": "🧮 I am currently developing a handwriting recognition app that interprets and solves math calculations, plots graphs, and performs calculus operations. The app aims to enhance learning by recognizing handwritten mathematical expressions and converting them into digital format for seamless processing and real-time graph plotting.",
+			"isFork": false,
+			"languages": [
+				{
+					"name": "HTML",
+					"iconifyClass": "html5.png"
+				},
+				{
+					"name": "CSS",
+					"iconifyClass": "css3.png"
+				},
+				{
+					"name": "TypeScript",
+					"iconifyClass": "typescript.png"
+				},
+				{
+					"name": "React-Native",
+					"iconifyClass": "react-native.png"
+				},
+				{
+					"name": "Bootstrap",
+					"iconifyClass": "bootstrap.png"
+				},
+				{
+					"name": "MUI",
+					"iconifyClass": "mui.png"
+				},
+				{
+					"name": "Firebase",
+					"iconifyClass": "firebase.png"
 				}
 			]
 		}

@@ -22,7 +22,6 @@ export default function Projects() {
 				<Fade direction="up" duration={2000} triggerOnce>
 					<div className="projects-heading-div">
 						<div className="projects-heading-img-div">
-							{/* <ProjectsImg theme={theme} /> */}
 							<img src={projects} alt="" />
 						</div>
 						<div className="projects-heading-text-div">

@@ -454,7 +454,7 @@ const experience = {
 					company_url: "https://github.com/",
 					logo_path: "github_logo.png",
 					duration: "Jan 2024 - PRESENT",
-					location: "Work From Home",
+					location: "Remote Work",
 					description:
 						"I am actively contributing to many open source projects.  These contributions include bug fixes, feature requests and formulating proper documentation for project.",
 					color: "#181717",
@@ -466,7 +466,7 @@ const experience = {
 					company_url: "https://leetcode.com/",
 					logo_path: "leetcode.png",
 					duration: "Jan 2024 - PRESENT",
-					location: "Work From Home",
+					location: "Remote Work",
 					description:
 						"I contribute to LeetCode by consistently solving a wide range of coding challenges, focusing on clarity, efficiency, and correctness in my solutions. I document and share detailed explanations alongside my code to aid learning and promote best practices within the community.",
 					color: "#181717",
@@ -477,7 +477,7 @@ const experience = {
 					company_url: "https://maths-angel.co.uk/home",
 					logo_path: "mathsangel.png",
 					duration: "June 2024 - PRESENT",
-					location: "Work From Home",
+					location: "Remote Work",
 					description:
 						"I volunteered with an AI-powered startup, offering UX design insights and performance suggestions to enhance their product. My contributions focused on optimizing user experience, refining product design, and improving overall performance.",
 					color: "#181717",

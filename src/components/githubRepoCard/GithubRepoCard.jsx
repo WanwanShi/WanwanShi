@@ -35,6 +35,7 @@ export default function GithubRepoCard(props) {
 					<p className="repo-description" style={{ color: theme.text }}>
 						{repo.description}
 					</p>
+
 					<div className="repo-details">
 						<p
 							className="repo-creation-date subTitle"
