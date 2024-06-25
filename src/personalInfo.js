@@ -320,7 +320,7 @@ const certifications = {
 			subtitle: "freeCodeCamp",
 			logo_path: "freecodecamp.png",
 			certificate_link:
-				"https://www.freecodecamp.org/certification/WanwanShi/responsive-web-design",
+				"https://www.freecodecamp.org/certification/WanwanShi/javascript-algorithms-and-data-structures-v8",
 			alt_name: "Legacy JavaScript Algorithms and Data Structures",
 			color_code: "#00000099",
 		},
