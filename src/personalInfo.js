@@ -377,10 +377,11 @@ const certifications = {
 		},
 		{
 			title: "AWS Cloud Practitioner",
-			subtitle: "- (In progress)",
+			subtitle: "- Amazon Cloud",
 			logo_path: "aws.png",
-			certificate_link: "",
-			alt_name: "GCP",
+			certificate_link:
+				"https://www.credly.com/badges/f7184d38-4308-430b-af91-83ffeee74ea5/linked_in_profile",
+			alt_name: "AWS Cloud Practitioner",
 			color_code: "#4285F499",
 		},
 	],
