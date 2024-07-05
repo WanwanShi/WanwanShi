@@ -39,7 +39,7 @@ Hey there! Thanks for stopping by. This repository is home to some seriously coo
 ### Connect With Me
 
 🌐 **Stay in Touch:**  
-   Want to chat about tech, share ideas, or just say hello? You can find me on [LinkedIn]((https://www.linkedin.com/in/wanwanshi/)) Don't hesitate to reach out!
+   Want to chat about tech, share ideas, or just say hello? You can find me on [LinkedIn](https://www.linkedin.com/in/wanwanshi/) Don't hesitate to reach out!
 
 📧 **Contact:**  
    Need to get in touch via email? Drop me a line at wendyshi1082017@gmail.com. I promise to respond faster than my code compiles (well, almost!).
